@@ -1,5 +1,8 @@
 # Adult Income Prediction with a Neural Network
 
+<p align="center">
+  <img src="https://github.com/ties2/Adult_Income/blob/main/pipeline/other/Adult_Income-NN.png" alt="Computer Vision Logo" width="500" />
+</p>
 ## Project Overview
 This project predicts whether an individual's income exceeds **$50,000 annually** using the **1994 U.S. Census dataset**.  
 It demonstrates a complete machine learning workflow — from **data preprocessing** to **building and evaluating** a neural network model.
