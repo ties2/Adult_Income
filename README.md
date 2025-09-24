@@ -7,7 +7,7 @@ It demonstrates a complete machine learning workflow — from **data preprocessi
 ---
 
 ## Dataset
-- **Source:** [Adult Income Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income)  
+- **Source:** [Adult Income Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/mosapabdelghany/adult-income-prediction-dataset/data)  
 - **Features:** Includes attributes such as **age, education, occupation, capital gain**, etc.  
 - **Target:** Classifying individuals into:
   - `<=50K`
