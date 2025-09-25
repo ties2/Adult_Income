@@ -9,11 +9,6 @@ import matplotlib.pyplot as plt
 
 
 class DataPipeline:
-    """
-    Comprehensive data loading and preprocessing pipeline for the Adult Income dataset.
-    This version is customized for tabular data and handles categorical features.
-    """
-
     def __init__(self, dataset_path: str = './adult.csv', target_column: str = 'income'):
         self.dataset_path = dataset_path
         self.target_column = target_column
@@ -30,8 +25,6 @@ class DataPipeline:
                      pca_components: Optional[int] = None,
                      subsample: Optional[int] = None) -> Tuple[Tuple[np.ndarray, np.ndarray], ...]:
         """
-        Loads and preprocesses the Adult Income dataset.
-
         Args:
             test_size: Proportion of the dataset to include in the test split.
             val_size: Proportion of the remaining data to include in the validation split.
@@ -40,7 +33,6 @@ class DataPipeline:
             apply_pca: Whether to apply PCA dimensionality reduction.
             pca_components: Number of PCA components (None for automatic, keeping 95% variance).
             subsample: If specified, subsample the data for faster experimentation.
-
         Returns:
             A tuple containing the splits: (train_x, train_y), (val_x, val_y), (test_x, test_y).
         """

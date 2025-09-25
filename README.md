@@ -6,7 +6,6 @@
 
 ## Project Overview
 This project predicts whether an individual's income exceeds **$50,000 annually** using the **1994 U.S. Census dataset**.  
-It demonstrates a complete machine learning workflow — from **data preprocessing** to **building and evaluating** a neural network model.
 
 ---
 

@@ -6,7 +6,7 @@ def save_results(classifier_name: str, results_dict: Dict[str, Any]):
     """
     Saves the performance metrics of a classifier to a text file.
     """
-    output_dir = './output'
+    output_dir = './pipeline/output'
     os.makedirs(output_dir, exist_ok=True)
     filename = f"{classifier_name.replace(' ', '_')}_results.txt"
     filepath = os.path.join(output_dir, filename)
